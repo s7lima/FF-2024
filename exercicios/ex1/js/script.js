@@ -1,12 +1,12 @@
-// Declaração Intero e decimal
-const text = "uma palavra";
-let numInteiro = 30;
-const numDecimal = 35.5;
+const Nome = "Breno";
+let Idade = 22;
+const Nascimento = 21.02;
 
-// Saída de dados 
-// forma 1
-console.log( text+", " + numInteiro + ", " + numDecimal)
-// forma 2
-console.log( text+', ' + numInteiro + ', ' + numDecimal)
-// forma 3
-console.log( `${text}, ${numInteiro}, ${numDecimal}`)
+// Forma 1
+console.log(Nome + ", " + Idade + ", " + Nascimento);
+
+// Forma 2
+console.log(Nome + ', '  + Idade + ', ' + Nascimento);
+
+// Forma 3
+console.log(`${Nome}, ${Idade}, ${Nascimento}`);

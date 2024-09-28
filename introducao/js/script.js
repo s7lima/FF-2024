@@ -1,8 +1,8 @@
 // Entrada de dados
-let num1 = parseFloat(prompt("Digite o primeiro número"))
-let num2 = parseFloat(prompt("Digite o segundo número"))
+let num1 = parseFloat(prompt("Digite o primeiro número"));
+let num2 = parseFloat(prompt("Digite o segundo número"));
 
-// Procesamento
+// Processamento
 let soma = num1 + num2;
 let subtracao = num1 - num2;
 let multiplicacao = num1 * num2;
@@ -11,28 +11,28 @@ let exponenciacao = num1 ** num2;
 let modulo = num1 % num2;
 
 // Saída de dados
-alert("A soma é:" + soma);
-alert("A subtração é:" + subtracao);
-alert("A multiplicacao é:" + multiplicacao);
-alert("A divisão é:" + divisao);
-alert("A Exponenciação de num1 a num2 é:" + exponenciacao);
-alert("O Resto da divisão é:" + modulo);
-
+alert("A Soma é: " + soma);
+alert("A Subtração é: " + subtracao);
+alert("A Multiplicação é: " + multiplicacao);
+alert("A Divisão é: " + divisao);
+alert("A Exponenciação de num1 a num2 é: " + exponenciacao);
+alert("O Resto da divisão é: " + modulo);
 
 let a = 10;
 let b = 20;
- 
+
 let ehIgual = a == b;
 let ehDiferente = a != b;
 let ehEstritIgual = a === b;
 let ehEstritDiferente = a !== b;
 let ehMaior = a > b;
+let ehMenor = a > b;
 let ehMenorOuIgual = a <= b;
 let ehMaiorOuIgual = a >= b;
- 
+
 let naoEhIgual = !ehIgual;
 let naoEhDiferente_EhMenor_ou_EhMaiorOuIgual = !ehDiferente && (ehMenor || ehMaiorOuIgual);
- 
+
 console.log("É igual: " + ehIgual);
 console.log("É diferente: " + ehDiferente);
 console.log("É Estritamente Igual: " + ehEstritIgual);
